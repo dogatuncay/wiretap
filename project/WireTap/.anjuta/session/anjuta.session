@@ -1,0 +1,12 @@
+
+[Anjuta]
+Maximized=1
+Geometry=1280x669+0+25
+
+[File Loader]
+Files=file:///root/Desktop/WireTap/main.c#734
+
+[Execution]
+Program arguments=dhcp.pcap
+Run in terminal=2
+Last selected uri=file:///root/Desktop/WireTap/wiretap

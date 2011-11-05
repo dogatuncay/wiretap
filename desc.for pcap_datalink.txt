@@ -1,0 +1,4 @@
+int pcap_datalink(pcap_t *p)
+
+
+pcap_datalink() returns the link layer type, e.g. DLT_EN10MB

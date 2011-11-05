@@ -1,0 +1,11 @@
+
+
+int pcap_loop(pcap_t *p, int cnt,pcap_handler callback, u_char *user)
+
+
+pcap_loop() 
+
+is similar to pcap_dispatch() except it keeps reading packets until cnt packets are processed or an error occurs. 
+It does not return when live read timeouts occur. Rather, specifying a non-zero read timeout to pcap_open_live() and then calling pcap_dispatch() 
+allows the reception and processing of any packets that arrive when the timeout occurs. A negative cnt causes pcap_loop() to loop forever
+(or at least until an error occurs).

@@ -1,0 +1,22 @@
+
+NAME
+
+tcpdump - dump traffic on a network  
+
+SYNOPSIS
+
+tcpdump [ -adeflnNOpqRStvxX ] [ -c count ] [ -F file ] 
+
+         [ -i interface ] [ -m module ] [ -r file ] 
+
+         [ -s snaplen ] [ -T type ] [ -w file ] 
+
+         [ -E algo:secret ] [ expression ] 
+
+Tcpdump prints out the headers of packets on a network interface that match the boolean expression.
+
+Under Linux: You must be root or it must be installed setuid to root.
+
+
+
+/**********************************GO on from the web source************************************************/

@@ -1,0 +1,13 @@
+pcap_open_offline()
+
+ is called to open a ``savefile'' for reading. fname specifies the name of the file to open.
+The file has the same format as those used by tcpdump(1) and tcpslice(1). The name "-" in a synonym for stdin. 
+ebuf is used to return error text and is only set when pcap_open_offline() fails and returns NULL.
+
+pcap_t *pcap_open_offline(char *fname, char *ebuf)
+
+CAN BE USEFULL:
+
+pcap_dump_open() is called to open a ``savefile'' for writing. The name "-" in a synonym for stdout.
+NULL is returned on failure. p is a pcap struct as returned by pcap_open_offline() or pcap_open_live(). 
+fname specifies the name of the file to open. If NULL is returned, pcap_geterr() can be used to get the error text.

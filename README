@@ -1,0 +1,3 @@
+In this project we implemented a software application that takes a tcpdump data file offline as input,
+analyzes it and outputs human readable statistics about the data file. We focused on data link layer Ethernet protocol with Ilhan Keklik
+
